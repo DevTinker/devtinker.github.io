@@ -2196,3 +2196,31 @@ body {
   margin-left: 12px;
   opacity: 1;
 }
+
+.status-type.inprogress{
+  background-color: #4AA3BA;
+}
+
+.status-type.blocked{
+  background-color: #DA5C53;
+}
+.status-type.notstarted{
+  background-color: #FFFFFF;
+  color: #000;
+}
+
+.status-type {
+  background-color: #98C74E;
+  color: #fff;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  padding: 0 10px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  border: 1px solid rgba(0,0,0,.1);
+  min-width: 100px;
+  text-align: center;
+  top: 19px;
+}
