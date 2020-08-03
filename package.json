@@ -4,7 +4,8 @@
   "description": "Most advanced documentation template on ThemeForest",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": " python server.py --dir ./ --port 5000"
   },
   "keywords": [
     "documentation",
